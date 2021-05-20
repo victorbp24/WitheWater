@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>WhiteWater - Um novo Conceito em criptomoedas</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="shortcut icon" href="../img/favicon png.png" type="image/png">
+        
+    </head> 
+    <body>
+        <nav class="navbar navbar-light fixed-top navbar navbar-expand-lg nav_cor nav_custom">
+            <a class="navbar-brand" href="#">
+                <h2 class="titulo-lettering">White Water</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link active scrollSuave" href="../index.html">Início</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link scrollSuave" href="../index.html#moeda">A Moeda</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <img src="../img/trolley.png" class="img-fluid" width="28">
+                        <span class="badge back-claro" id="itensCart">0</span>
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          
+          <main>
+              <section class="section section-comprar">
+                  <div class="container w-100 h-100">
+                      <div class="row w-100 h-100 justify-content-center align-items-center">
+                          <div class="col-4 card_credit">
+                            <h3 class="float-right title-cardc">White Water</h3>
+                            <img src="../img/logo_3d.png" class="img-fluid logo_cardc" width="100">
+                            <br><br>
+                            <h3 class="subtitle-cardc">Carteira WW</h2>
+                            <h5 class="subtitle-cardc" style="margin-top:-10px;">Você tem 5ww</h5>
+                          </div>
+                          <div class="col-1"></div>
+                          <div class="col-3">
+                            <canvas id="myChart2" width="200" height="200"></canvas>
+                          </div>
+                          <div class="col-1"></div>
+                          <div class="col-3">
+                            <canvas id="myChart" width="200" height="200"></canvas>
+
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+              <section class="section section-comprar">
+                  <div class="container w-100 h-100">
+                      <div class="row w-100 h-100  align-items-center">
+                          <div class="col-12">
+                              <h3 class="title_comprar">Comprar</h3>
+
+                              <div class="row">
+                                <div class="col-4">
+                                  <div class="card">
+                                      <img src="../img/logo_3d.png" class="card-img-top img-fluid" alt="...">
+
+                                    <div class="card-body">
+                                      <h5 class="card-title text-center">1 - White Water's</h5>
+                                      <p class="card-text text-center">1ww = R$ 224.149,25</p>
+                                      <button class="btn bt-outline-3" id="c1">Adicionar ao carrinho</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card">
+                                      <img src="../img/logo_3d.png" class="card-img-top img-fluid" alt="...">
+
+                                    <div class="card-body">
+                                      <h5 class="card-title text-center">5 - White Water's</h5>
+                                      <p class="card-text text-center">5ww = R$ 1.207.460,25</p>
+                                      <button class="btn bt-outline-3" id="c2">Adicionar ao carrinho</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card">
+                                      <img src="../img/logo_3d.png" class="card-img-top img-fluid" alt="...">
+
+                                    <div class="card-body">
+                                      <h5 class="card-title text-center">10 - White Water's</h5>
+                                      <p class="card-text text-center">10ww = R$ 2.414.925,00</p>
+                                      <button class="btn bt-outline-3" id="c3">Adicionar ao carrinho</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+              <section class="section section-comprar">
+                  <div class="container w-100 h-100">
+                      <div class="row w-100 h-100  align-items-center">
+                          <div class="col-12">
+                              <h3 class="title_comprar">Comprar</h3>
+
+                              <div class="row">
+                                <div class="col-4">
+                                  <div class="card">
+                                      <img src="../img/CARRO TESLA.jpg" class="card-img-top img-fluid" alt="...">
+
+                                    <div class="card-body">
+                                      <h5 class="card-title text-center">Tesla Model S Long Range AWD</h5>
+                                      <p class="card-text text-center">1,89ww</p>
+                                      <button class="btn bt-outline-3" id="c4">Adicionar ao carrinho</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card">
+                                      <img src="../img/MANSÃO.jpg" class="card-img-top img-fluid" alt="...">
+
+                                    <div class="card-body">
+                                      <h5 class="card-title text-center">Mansão</h5>
+                                      <p class="card-text text-center">89ww</p>
+                                      <button class="btn bt-outline-3" id="c5">Adicionar ao carrinho</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card">
+                                      <img src="../img/DIAMOND.jpg" class="card-img-top img-fluid" alt="...">
+
+                                    <div class="card-body">
+                                      <h5 class="card-title text-center">Diamante</h5>
+                                      <p class="card-text text-center">1.5ww</p>
+                                      <button class="btn bt-outline-3" id="c6">Adicionar ao carrinho</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              
+              
+          </main>
+          <!--FOOTER-->
+          <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col item">
+                            <h3>Serviços</h3>
+                            <ul>
+                                <li><a href="#">WW Cripto</a></li>
+                                <li><a href="#">WW Pay</a></li>
+                            </ul>
+                        </div>
+                        <div class="col col-md-3 item">
+                            <h3>Sobre</h3>
+                            <ul>
+                                <li><a href="#">Criptomoedas</a></li>
+                                <li><a href="#">Treaders</a></li>
+                                <li><a href="#">Investimento</a></li>
+                            </ul>
+                        </div>
+                        <div class="col item">
+                            <h3>WW COIN</h3>
+                            <ul>
+                                <li><a href="#">Use to Pay</a></li>
+                                <li><a href="#">Pay Purchases</a></li>
+                                <li><a href="#">Excange Points</a></li>
+                                <li><a href="#">Acessibilidade</a></li>
+                            </ul>
+                        </div>
+                        <div class="col item">
+                            <h3>Fale conosco</h3>
+                            <ul>
+                                <li><a href="formulario.html">Contato</a></li>
+                            </ul>
+                        </div>
+                        <div class="col item social float-right"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                            <p class="copyright">WhiteWaterCoin © 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content modal-blue">
+              <div class="modal-header">
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class=" h-100 w-100">
+                  <div class="container h-100 w-100">
+                    <div class="row h-100 w-100 justify-content-center align-items-center">
+                        <form action="pag/comprar.html">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">E-mail</label>
+                            <input type="email" class="form-control input-outline" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Senha</label>
+                            <input type="password" class="form-control input-outline" id="exampleInputPassword1" placeholder="Senha" required>
+
+                            <a href="#" class="float-right mt-1 mb-4 span esqueceu">Esqueceu a senha?</a>
+                          </div>
+                          
+                          <button type="submit" class="btn col-12 bt-outline">Login</button>
+                          <br>
+                          <button type="button" class="btn col-12 bt-outline">Cadastrar</button>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="carrinho" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content modal-blue">
+              <div class="modal-header">
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class=" h-100 w-100">
+                  <div class="container h-100 w-100">
+                    <div class="row h-100 w-100 justify-content-center align-items-center">
+                        
+                          <ul class="list-group" id="listaCarrinho">
+                            
+                          </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.1/chart.js"></script>
+        <script src="../js/bootstrap.js"></script>
+
+        <script>
+            var $doc = $('html, body');
+            $('.scrollSuave').click(function() {
+                $doc.animate({
+                    scrollTop: $( $.attr(this, 'href') ).offset().top - 50
+                }, 500);
+                return false;
+            });
+
+        </script>
+
+        <script>
+
+          function typeWrite(elemento){
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) => {
+              setTimeout(function(){
+                  elemento.innerHTML += letra;
+              }, 200 * i)
+            });
+          }
+          const titulo = document.querySelector('.titulo-lettering');
+
+          
+        
+          typeWrite(titulo);
+        </script>
+
+        <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var ctx2 = document.getElementById('myChart2').getContext('2d');
+        const data = {
+          labels: [
+            'Red',
+            'Green',
+            'Yellow',
+            'Grey',
+            'Blue'
+          ],
+          datasets: [{
+            label: 'My First Dataset',
+            data: [11, 16, 7, 3, 14],
+            backgroundColor: [
+              'rgb(255, 99, 132)',
+              'rgb(75, 192, 192)',
+              'rgb(255, 205, 86)',
+              'rgb(201, 203, 207)',
+              'rgb(54, 162, 235)'
+            ]
+          }]
+        };
+
+        const data2 = {
+        labels: [
+          'Eating',
+          'Drinking',
+          'Sleeping',
+          'Designing',
+          'Coding',
+          'Cycling',
+          'Running'
+        ],
+        datasets: [{
+          label: 'My First Dataset',
+          data: [65, 59, 90, 81, 56, 55, 40],
+          fill: true,
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderColor: 'rgb(255, 99, 132)',
+          pointBackgroundColor: 'rgb(255, 99, 132)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgb(255, 99, 132)'
+        }, {
+          label: 'My Second Dataset',
+          data: [28, 48, 40, 19, 96, 27, 100],
+          fill: true,
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          borderColor: 'rgb(54, 162, 235)',
+          pointBackgroundColor: 'rgb(54, 162, 235)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgb(54, 162, 235)'
+        }]
+      };
+        var myChart = new Chart(ctx, {
+            type: 'polarArea',
+            data: data,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        var myChart = new Chart(ctx2, {
+            type: 'radar',
+            data: data2,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+        </script>
+
+        <script>
+
+          var itens = new Array;
+          var precoItens = new Array;
+          var contItens = 0;
+          $('#c1').click(function(){
+            
+            contItens++;
+            
+            $('#itensCart').html(contItens);
+            itens.push('1ww');
+            precoItens.push('R$ 224.149,25');
+
+          });
+          $('#c2').click(function(){
+            
+            contItens++;
+            
+            $('#itensCart').html(contItens);
+            itens.push('5ww');
+            precoItens.push('R$ 1.207.460,25');
+
+          });
+          $('#c3').click(function(){
+            
+            contItens++;
+            
+            $('#itensCart').html(contItens);
+            itens.push('10ww');
+            precoItens.push('R$ 2.414.925,00');
+
+          });
+
+          $('#c4').click(function(){
+            
+            contItens++;
+            
+            $('#itensCart').html(contItens);
+            itens.push('Tesla Model S Long Range AWD');
+            precoItens.push('1,89ww');
+
+          });
+
+           $('#c5').click(function(){
+            
+            contItens++;
+            
+            $('#itensCart').html(contItens);
+            itens.push('Mansão');
+            precoItens.push('89ww');
+
+          });
+
+           $('#c6').click(function(){
+            
+            contItens++;
+            
+            $('#itensCart').html(contItens);
+            itens.push('Diaman');
+            precoItens.push('1.5ww');
+
+          });
+
+          function recuperarCarrinho(){
+
+            var i = 0;
+
+            var lista = document.getElementById('listaCarrinho');
+            
+
+            for(i = 0; i < itens.length;i++){
+              var itemOK = '<li class="list-group-item col-12 text-black">' + itens[i] + ' - ' + precoItens[i] + '</li>';
+              lista.innerHTML+=itemOK;
+            }
+
+          }
+
+          $('#itensCart').click(function(){
+            recuperarCarrinho();
+            $('#carrinho').modal('show');
+          });
+        </script>
+    </body>
+        
+        
+
+</html>
